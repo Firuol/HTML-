@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title> 
+   my first website 
+  </title>
+ </head>
+ <body
+ style="background-image:url('image.jpg');width:100%;height:100%;">
+  <h1 style="color:red;background-color:green;">
+    Life is short
+  </h1>
+  <p>
+   This is a <br> paragraph.
+  </p>
+  <hr>
+   <a href="https://www.w3schools.com">
+   Click HERE PLEASE NIGA 
+   </a> 
+    <img src="image.jpg" width="300" height="242"> 
+ </body>
+</html>
