@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title> 
+   my first website 
+  </title>
+ </head>
+ <body>
+ <form action="successpage.html">
+  <fieldset>
+  <legend>personal information </legend>
+     <p>
+        please enter Your first name 
+        <br>
+        <input type="text" name="fn" >
+       <br>
+        please enter Your last name 
+        <br>
+        <input type="text" name="ln" >
+        </p>educational status<br>
+        <input list="edu">
+        <datalist id="edu">
+        <option value="primary">
+        <option value="high school">
+        <option value="preparatory">
+        <option value="degree">
+        <option value="masters">
+        </datalist>
+        <br> sex<br>
+        <input type="radio" name="sex" value="male" checked>
+        male
+        <input type="radio" name="sex" value="female">
+        female<br>
+        Religion
+        <select name="religion">
+           <option value="muslim"> Muslim </option>
+           <option value="protestant">Protestant</option>
+           <option value="Orthodox">orthodox</option>
+           </select><br>
+        <input type="submit" value="save">
+        <input type="reset" value="clear">
+   </fieldset>
+  </form>
+   </body>
+</html>
