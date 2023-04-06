@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="utf-8">
+        <title>ticket reservation of ODAA bus</title>
+        <link rel="stylesheet" href="aa.css">
+    </head>
+    <body>
+    
+        
+        <form>
+            <fieldset>
+            <legend>Ticket reservation form:</legend>
+                
+                    <label for="fname" style="font-size:large;">First name:</label>
+                    <input type="text" id="fname" name="fname"><br><br>
+                    <label for="lname"style="font-size: large;">Last name:</label>
+                    <input type="text" id="lname" name="lname">
+                    <br>
+                    <br>
+              
+                 
+            FROM:
+            <input list="start">
+            <datalist id="start">
+                <option value ="JIMMA"></option>
+                <option value ="NEKEMTE"></option>
+                <option value ="GIMBI"></option>
+                <option value ="AMBO"></option>
+                <option value ="ADAMA"></option>
+                <option value ="BISHOFTU"></option>
+                <option value ="ASALLA"></option>
+                <option value ="SHASHAMANE"></option>
+                 <option value ="FINFINNE"></option>
+                </datalist>
+                <br>
+              <br>
+            TO:
+                <input list="destination">
+                <datalist id="destination">
+                <option value ="JIMMA"></option>
+                <option value ="NEKEMTE"></option>
+                <option value ="GIMBI"></option>
+                <option value ="AMBO"></option>
+                <option value ="ADAMA"></option>
+                <option value ="BISHOFTU"></option>
+                <option value ="ASALLA"></option>
+                <option value ="SHASHAMANE"></option>
+                 <option value ="FINFINNE"></option>
+                </datalist>
+                <br><br>
+            Date:
+                <input type="date" id="da" name="date"><br><br>
+                <input type="submit" value="Search" style="color:green;font-size: 20px;">
+               <a href="mainpage.html">
+      CANCEL
+    </a>
+            </label>
+        </fieldset>
+        </form>
+    </body>
+</html>
