@@ -1,0 +1,24 @@
+table, th, td {
+  border: 1px solid white;
+}
+ td {
+  background-color: #DCDCDC;
+}
+th {
+background-color:green;
+}
+
+fieldset {
+  background-image: url("images.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 800px;
+  height:400px;
+  margin: 0 auto;
+}
+body {
+  background-image: url("new-modern.avif");
+  background-size: cover;
+}
+ 
+  legend{ background-color:green}
